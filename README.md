@@ -496,9 +496,9 @@ cards:
               border-radius: 0
             }
       - aggregate_func: max
-        name: Maaitijd
+        name: Today
         entities:
-          - entity: sensor.maaitijd
+          - entity: sensor.daily_mowing_time
         group_by: date
         hour24: true
         hours_to_show: 360
